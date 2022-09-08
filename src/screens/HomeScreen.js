@@ -5,7 +5,7 @@ import {TouchableOpacity} from "react-native-gesture-handler";
 const HomeScreen = ({navigation}) => {
     return (
         <View>
-            <Text style={styles.text}>Autolly</Text>
+            <Text style={styles.text}>RN Demo App</Text>
             <TouchableOpacity style={styles.link} onPress={() => navigation.navigate("Components")}>
                 <Text>Go to components</Text>
             </TouchableOpacity>
@@ -14,6 +14,18 @@ const HomeScreen = ({navigation}) => {
             </TouchableOpacity>
             <TouchableOpacity style={styles.link} onPress={() => navigation.navigate("Image")}>
                 <Text>Go to image</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.link} onPress={() => navigation.navigate("Counter")}>
+                <Text>Go to Counter</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.link} onPress={() => navigation.navigate("Color")}>
+                <Text>Go to Color</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.link} onPress={() => navigation.navigate("Square")}>
+                <Text>Go to Square</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.link} onPress={() => navigation.navigate("Text")}>
+                <Text>Go to Text Screen</Text>
             </TouchableOpacity>
         </View>
     );
