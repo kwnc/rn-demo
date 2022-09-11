@@ -13,6 +13,7 @@ const HomeScreen = ({navigation}) => {
             <Button style={styles.link} title="Go to Square" onPress={() => navigation.navigate("Square")}/>
             <Button style={styles.link} title="Go to Text" onPress={() => navigation.navigate("Text")}/>
             <Button style={styles.link} title="Go to Box" onPress={() => navigation.navigate("Box")}/>
+            <Button style={styles.link} title="Go to Mobx" onPress={() => navigation.navigate("Mobx")}/>
         </View>
     );
 };
